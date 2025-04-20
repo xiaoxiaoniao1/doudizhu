@@ -20,7 +20,10 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
+=======
+>>>>>>> fd2e73b (Initial commit)
 *.egg-info/
 .installed.cfg
 *.egg
@@ -46,10 +49,15 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 *.py,cover
 .hypothesis/
 .pytest_cache/
 cover/
+=======
+.hypothesis/
+.pytest_cache/
+>>>>>>> fd2e73b (Initial commit)
 
 # Translations
 *.mo
@@ -59,7 +67,10 @@ cover/
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
 db.sqlite3-journal
+=======
+>>>>>>> fd2e73b (Initial commit)
 
 # Flask stuff:
 instance/
@@ -72,7 +83,10 @@ instance/
 docs/_build/
 
 # PyBuilder
+<<<<<<< HEAD
 .pybuilder/
+=======
+>>>>>>> fd2e73b (Initial commit)
 target/
 
 # Jupyter Notebook
@@ -83,6 +97,7 @@ profile_default/
 ipython_config.py
 
 # pyenv
+<<<<<<< HEAD
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
@@ -123,6 +138,12 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+=======
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+>>>>>>> fd2e73b (Initial commit)
 
 # SageMath parsed files
 *.sage.py
@@ -153,6 +174,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+<<<<<<< HEAD
 
 # pytype static type analyzer
 .pytype/
@@ -172,3 +194,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+>>>>>>> fd2e73b (Initial commit)
